@@ -1,0 +1,1 @@
+﻿fr-crawler|digincore|XoviBot|ssearch_bot|Domnutch|rogerbot|CMS Crawler|Nutch Crawler|magpie-crawler|TurnitinBot|NetSeer crawler|Exabot|SiteBot|Java/1.4.1_04|YandexBot|Wget|Lycos|Ultraseek|InfoSeek|Scooter|Mercator|AVSearch|AltaVista|Slurp|YahooSeeker|Ezooms|Baiduspider|Mediapartners-Google|Google Web Preview|Google|Googlebot|bingbot|msnbot-media|MSNBOT

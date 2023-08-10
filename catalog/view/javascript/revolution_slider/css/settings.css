@@ -1,0 +1,163 @@
+.fullwidthbanner-container {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    overflow: hidden
+}
+.tp-simpleresponsive img {
+    max-width: none
+}
+.tparrows {
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+    -webkit-transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    -ms-transition: opacity .2s ease-out;
+    -webkit-transform: translateZ(5000px);
+    -webkit-transform-style: flat;
+    -webkit-backface-visibility: hidden;
+    z-index: 600;
+    position: relative
+}
+
+.tparrows.hidearrows {
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0
+}
+
+.tp-leftarrow {
+    z-index: 100;
+    cursor: pointer;
+    position: relative;
+    background: url(https://alsakkaftravel.net/catalog/view/javascript/revolution_slider/assets/large_left.png) no-Repeat top left;
+    width: 40px;
+    height: 40px
+}
+
+.tp-rightarrow {
+    z-index: 100;
+    cursor: pointer;
+    position: relative;
+    background: url(https://alsakkaftravel.net/catalog/view/javascript/revolution_slider/assets/large_right.png) no-Repeat top left;
+    width: 40px;
+    height: 40px
+}
+
+.tp-leftarrow.round {
+    z-index: 100;
+    cursor: pointer;
+    position: relative;
+    background: url(https://alsakkaftravel.net/catalog/view/javascript/revolution_slider/assets/small_left.png) no-Repeat top left;
+    width: 19px;
+    height: 14px;
+    margin-right: 0;
+    float: left;
+    margin-top: 0
+}
+
+.tp-rightarrow.round {
+    z-index: 100;
+    cursor: pointer;
+    position: relative;
+    background: url(../assets/small_right.png) no-Repeat top left;
+    width: 19px;
+    height: 14px;
+    margin-right: 0;
+    float: left;
+    margin-top: 0
+}
+
+.tp-leftarrow.default {
+    z-index: 100;
+    cursor: pointer;
+    position: relative;
+    background: url(https://alsakkaftravel.net/catalog/view/javascript/revolution_slider/assets/large_left.png) no-Repeat 0 0;
+    width: 40px;
+    height: 40px
+}
+
+.tp-rightarrow.default {
+    z-index: 100;
+    cursor: pointer;
+    position: relative;
+    background: url(https://alsakkaftravel.net/catalog/view/javascript/revolution_slider/assets/large_right.png) no-Repeat 0 0;
+    width: 40px;
+    height: 40px
+}
+.tp-bannertimer {
+    width: 100%;
+    height: 10px;
+    background: url(../assets/timer.png);
+    position: absolute;
+    z-index: 200;
+    top: 0
+}
+.tp-simpleresponsive img {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none
+}
+
+.tp-simpleresponsive a {
+    text-decoration: none
+}
+
+.tp-simpleresponsive ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.tp-simpleresponsive>ul>li {
+    list-stye: none;
+    position: absolute;
+    visibility: hidden
+}
+.tparrows .tp-arr-imgholder {
+    display: none
+}
+
+.tparrows .tp-arr-titleholder {
+    display: none
+}
+.tp-loader {
+    top: 50%;
+    left: 50%;
+    z-index: 10000;
+    position: absolute
+}
+.tp-loader.spinner4 {
+    margin: -20px 0 0 -20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    -webkit-animation: tp-rotate 2s infinite linear;
+    animation: tp-rotate 2s infinite linear
+}
+
+.tp-loader.spinner4 .dot1,.tp-loader.spinner4 .dot2 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: tp-bounce 2s infinite ease-in-out;
+    animation: tp-bounce 2s infinite ease-in-out;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,.15)
+}
+
+.tp-loader.spinner4 .dot2 {
+    top: auto;
+    bottom: 0;
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s
+}

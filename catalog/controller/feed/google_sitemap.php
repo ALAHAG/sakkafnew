@@ -1,0 +1,444 @@
+<?php
+class ControllerFeedGoogleSitemap extends Controller {
+	public function index() {
+$output='<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://alsakkaftravel.net/</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/index.php?route=common/home</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages-in-malaysian</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category%5B1%5D=2</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category%5B3%5D=4</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category%5B4%5D=13</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category%5B2%5D=12</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category%5B0%5D=5</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/transportation-and-tours</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/transportation-and-tours-in-slengor</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/transportation-and-tours-in-kualalumpur</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/transportation-and-tours-in-langkawi</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/transportation-and-tours-in-penang</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/transportation-and-tours-in-all-cameron-highlands</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/transportation-and-tours-in-all-malaysia</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels-in-malaysia</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels?city%5B9%5D=11</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels?city%5B1%5D=2</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels?city%5B11%5D=17</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels?city%5B10%5D=15</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels?city%5B13%5D=19</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels?city%5B12%5D=18</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels?rate%5B5%5D=5</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/booking</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/book-now-and-pay-later</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/condition-booking</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/testimonial</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/about-company</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/vision</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/mission</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/why-us</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/our-services</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/our-branches</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/contact-us</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/family-package-4-stars-economy</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/family-package-enjoyable</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-4-star-family</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/psckage-family-4-stars-excellent-by-alsallaf</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category=5</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-8-days-7-nights-5-stars</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-7-nights-5-stars-penang-2</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-8-days-7-nights-5-stars-langkawi</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-9-nights-5-stars</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category=12</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/5-stars-7-nights-economy-langkawi</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/5-stars-7-nights-economy-penang</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-5-stars-economy-3</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-5-stars-economy-5</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category=13</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-7-nights-4-stars-excellent</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-4-stars-excellent-5</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-8-nights-4-stars-excellent-langkawi</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-4-stars-excellent-4</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category=4</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-7-nights-4-stars-economy</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-7-nights-4-stars-economy-penang</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-4-stars-economy-penang-3</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-9-nights-4-stars-economy</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category=2</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-8-days-7-nights-langkawi-5-stars-excellent</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/bayview-beach-resort-penang</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/the-bayview-hotel-langkaw</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/berjaya-langkawi-resort</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/concorde-hotel-shah-alam</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/copthorne-hotel-cameron-highlands</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/dayang-bay-resort</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/dorsett-regency-kuala-lumpur-hotel</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/flamingo-hotel</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/aquaria-klcc</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/menara-kl-kuala-lumpur</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/petropetronas-towers-klccnas</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/penang</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/pages</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-4-stars-economy-langkawi-1</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages-in-malaysian?page=2</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages-in-malaysian?page=3</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages-in-malaysian?page=4</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages-in-malaysian?page=5</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-4-stars-economy-4</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-11-nights-4-stars-economy</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-12-nights-4-stars-economy</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-4-stars-economy-0</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-7-nights-4-stars-excellent-langkawi</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-10-nights-4-stars-excellent</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-4-stars-excellent-3</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-4-stars-excellent-2</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-14-days-13-nights-4-stars-excellent</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-5-stars-economy-4</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/5-stars-10-nights-economy</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/5-stars-12-nights-economy</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-5-stars-economy-1</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-10-nights-5-stars</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-13-nights-5-stars-2</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/family-package-4-stars-best</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category%5B0%5D=5&amp;page=2</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/four-points-by-sheraton-penang</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/furama-hotel-bukit-bintang-mlshaysia</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/g-hotel-gurney</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/golden-horses-hotel</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels-in-malaysia?page=2</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels-in-malaysia?page=3</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels-in-malaysia?page=4</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/grand-hyatt-kuala-lumpur</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/grand-millennium-kuala-lumpur</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/jw-marriott-hotel-kuala-lumpur</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels?city%5B1%5D=2&amp;page=2</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/langkawi-lagoon-resort</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/meritus-pelangi-beach-resort</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/rebak-island-resort</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/sheraton-langkawi-beach-resort</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/the-westin-langkawi</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/golden-sands-resort</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hard-rock-hotel-penang</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/holiday-inn-penang</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/lone-pine-hotel</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/paradise-beach-resort</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/parkroyal-hotel-penang</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/rasa-sayang-resort</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/strawberry-park-resort</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/grand-lexis-port-dickson</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels?rate%5B5%5D=5&amp;page=2</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category=5&amp;page=2</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/george-town</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/batu-ferringhi</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/bird-park-kuala-lumpur</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/cable-car-langkawi</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/penang-bridge</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/tropical-fruit-farm</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/tropical-spice-garden</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/city-kuala-lumpur</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/langkawi-island</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/butterfly-park-kuala-lumpur</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/floating-mosque</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/pages?page=2</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages-in-malaysian?page=1</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/package-13-nights-5-stars-excellent</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category%5B0%5D=5&amp;page=1</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels-in-malaysia?page=1</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels?city%5B1%5D=2&amp;page=1</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/hotels?rate%5B5%5D=5&amp;page=1</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/packages?category=5&amp;page=1</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/zoo-negara-kuala-kumpur-malaysia</loc>
+</url>
+<url>
+  <loc>http://alsakkaftravel.net/pages?page=1</loc>
+</url>
+</urlset>';
+		return $output;
+	}
+}
